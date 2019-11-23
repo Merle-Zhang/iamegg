@@ -6,7 +6,7 @@ public class keyMoveBall : MonoBehaviour
 {
 
     public Rigidbody rb;
-    public Transform camera;
+    public new Transform camera;
 
     // Start is called before the first frame update
     void Start()
