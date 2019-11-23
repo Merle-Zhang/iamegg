@@ -6,10 +6,12 @@ public class mouseMoveCamera : MonoBehaviour
 {
 
     //相机跟随的目标物体，一般是一个空物体
-    public Transform target;
+    public Transform target1;
+    public Transform target2;
+    private Transform target;
     private int MouseWheelSensitivity = 1; //滚轮灵敏度设置
     private int MouseZoomMin = 1; //相机距离最小值
-    private int MouseZoomMax = 20; //相机距离最大值
+    private int MouseZoomMax = 10; //相机距离最大值
 
     private float moveSpeed = 10; //相机跟随速度（中键平移时），采用平滑模式时起作用，越大则运动越平滑
 
@@ -35,6 +37,7 @@ public class mouseMoveCamera : MonoBehaviour
     private Vector3 curScreenPos; //当前鼠标的屏幕坐标（第三个值其实没什么用）
     void Start()
     {
+        target = target1;
         //这里就是设置一下初始的相机视角以及一些其他变量，这里的x和y。。。是和下面getAxis的mouse x与mouse y对应
         var angles = transform.eulerAngles;
         x = angles.y;
@@ -56,6 +59,10 @@ public class mouseMoveCamera : MonoBehaviour
 
     void Update()
     {
+        if (target == target1 && target1.gameObject.activeSelf == false)
+        {
+            target = target2;
+        }
         CameraTargetPosition = target.position;
         //鼠标右键旋转功能
 
