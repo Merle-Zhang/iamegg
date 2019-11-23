@@ -8,10 +8,10 @@ Unity 3D project called iamegg.
 # Developer
 
 * Merle
-* Afred
+* Alfred
 * Anna
 * Baiquan
-* Peilin
+* RainZ
 
 
 
@@ -35,6 +35,26 @@ Unity 3D project called iamegg.
 =========================================
 
 Dev doc
+
+
+
+分工
+
+模型 Baiquan
+
+场景/地图 Baiquan
+
+Camera Anna
+
+物理 Alfred
+
+控制 Merle
+
+sound RainZ
+
+
+
+
 
 
 
