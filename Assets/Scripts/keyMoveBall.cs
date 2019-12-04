@@ -19,6 +19,6 @@ public class keyMoveBall : MonoBehaviour
     {
         float vertical = Input.GetAxis("Vertical");
         float horizontal = Input.GetAxis("Horizontal");
-        rb.AddForce(camera.forward * vertical * 5 + camera.right * horizontal * 5);
+        rb.AddForce(camera.forward * vertical * 1 + camera.right * horizontal * 1);
     }
 }

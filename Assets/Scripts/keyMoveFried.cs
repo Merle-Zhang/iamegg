@@ -5,10 +5,10 @@ using UnityEngine;
 public class keyMoveFried : MonoBehaviour
 {
 
-    public Rigidbody rb;
+    private Rigidbody rb;
     public new Transform camera;
     // public ConfigurableJoint cj;
-    public Transform tf;
+    //private Transform tf;
 
     private ConfigurableJoint[] confJointArr = new ConfigurableJoint[4];
 
@@ -17,7 +17,7 @@ public class keyMoveFried : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         // cj = GetComponent<ConfigurableJoint>();
-        tf = GetComponent<Transform>();
+        //tf = GetComponent<Transform>();
     }
 
     // Update is called once per frame

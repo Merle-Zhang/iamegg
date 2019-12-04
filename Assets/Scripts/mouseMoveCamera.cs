@@ -10,10 +10,10 @@ public class mouseMoveCamera : MonoBehaviour
     public Transform target2;
     private Transform target;
     private int MouseWheelSensitivity = 1; //滚轮灵敏度设置
-    private int MouseZoomMin = 1; //相机距离最小值
-    private int MouseZoomMax = 10; //相机距离最大值
+    private float MouseZoomMin = 0.1f; //相机距离最小值
+    private float MouseZoomMax = 10; //相机距离最大值
 
-    private float moveSpeed = 10; //相机跟随速度（中键平移时），采用平滑模式时起作用，越大则运动越平滑
+    //private float moveSpeed = 10; //相机跟随速度（中键平移时），采用平滑模式时起作用，越大则运动越平滑
 
     private float xSpeed = 250.0f; //旋转视角时相机x轴转速
     private float ySpeed = 120.0f; //旋转视角时相机y轴转速
@@ -24,7 +24,7 @@ public class mouseMoveCamera : MonoBehaviour
     private float x = 0.0f; //存储相机的euler角
     private float y = 0.0f; //存储相机的euler角
 
-    private float Distance = 5; //相机和target之间的距离，因为相机的Z轴总是指向target，也就是相机z轴方向上的距离
+    private float Distance = 0.1f; //相机和target之间的距离，因为相机的Z轴总是指向target，也就是相机z轴方向上的距离
     private Vector3 targetOnScreenPosition; //目标的屏幕坐标，第三个值为z轴距离
     private Quaternion storeRotation; //存储相机的姿态四元数
     private Vector3 CameraTargetPosition; //target的位置
@@ -43,7 +43,8 @@ public class mouseMoveCamera : MonoBehaviour
         x = angles.y;
         y = angles.x;
         CameraTargetPosition = target.position;
-        storeRotation = Quaternion.Euler(y + 60, x, 0);
+        //storeRotation = Quaternion.Euler(y + 60, x, 0);
+        storeRotation = Quaternion.Euler(y, x, 0);
         transform.rotation = storeRotation; //设置相机姿态
         Vector3 position = storeRotation * new Vector3(0.0F, 0.0F, -Distance) + CameraTargetPosition; //四元数表示一个旋转，四元数乘以向量相当于把向量旋转对应角度，然后加上目标物体的位置就是相机位置了
         transform.position = storeRotation * new Vector3(0, 0, -Distance) + CameraTargetPosition; //设置相机位置
