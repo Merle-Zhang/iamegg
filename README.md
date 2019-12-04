@@ -4,6 +4,10 @@ Game Jam 2019, Bristol.
 
 Unity 3D project called iamegg. 
 
+# How to install
+
+Unzip the build.zip, run `iamegg.exe`, then enjoy the game!
+
 # Demo
 
 ![Menu](https://github.com/Merle-Zhang/iamegg/Demo/Menu.jpg)
@@ -54,6 +58,66 @@ Get the egg fried by falling into the pan, then move the fried egg into the plat
 * Anna - Camera
 * Baiquan - Modeling
 * RainZ - Music, Camera, Modeling
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
