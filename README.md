@@ -4,14 +4,56 @@ Game Jam 2019, Bristol.
 
 Unity 3D project called iamegg. 
 
+# Demo
+
+![Menu](https://github.com/Merle-Zhang/iamegg/Demo/Menu.jpg)
+
+![Options](https://github.com/Merle-Zhang/iamegg/Demo/Options.jpg)
+
+![Egg](https://github.com/Merle-Zhang/iamegg/Demo/Egg.jpg)
+
+![Fried Egg](https://github.com/Merle-Zhang/iamegg/Demo/FriedEgg.jpg)
+
+![Congratulation](https://github.com/Merle-Zhang/iamegg/Demo/congratulation.jpg)
+
+[Video Demo](https://github.com/Merle-Zhang/iamegg/Demo/Demo.flv)
+
+# Design
+
+Control an egg or/and a fried egg to complete missions in the kitchen!
+
+# Control
+
+Hold the right mouse button to rotate around the egg!
+
+For egg, use WASD to move!
+
+For fried egg, use 2/3/4 to hold a joint, and hold left mouse button to give a force to the fried egg!
+
+# Levels
+
+#### 1. Tutorial Level
+
+Get the egg fried by falling into the pan, then move the fried egg into the plate!
+
+#### 2... Coming soon!
+
+# To-dos
+
+- [ ] Multiple levels
+- [ ] BGM
+- [ ] Lose the game if fried egg get flipped
+- [ ] Get lower score if stay in fried pan too long or too short
+- [ ] Better model, UI, Texture, Material
+
 
 # Developer
 
-* Merle
-* Alfred
-* Anna
-* Baiquan
-* RainZ
+* Merle - Control
+* Alfred - Physics
+* Anna - Camera
+* Baiquan - Modeling
+* RainZ - Music, Camera, Modeling
 
 
 
