@@ -10,7 +10,7 @@ Unzip the build.zip, run `iamegg.exe`, then enjoy the game!
 
 # Demo
 
-![Menu](https://github.com/Merle-Zhang/iamegg/Demo/Menu.jpg)
+![Menu](Demo/Menu.jpg)
 
 ![Options](https://github.com/Merle-Zhang/iamegg/Demo/Options.jpg)
 
