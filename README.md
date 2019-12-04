@@ -6,7 +6,7 @@ Unity 3D project called iamegg.
 
 # How to install
 
-[build.zip](https://github.com/Merle-Zhang/iamegg/releases/latest/download/build.zip)
+[build.zip](https://github.com/Merle-Zhang/iamegg/releases/download/0.1.0/build.zip)
 
 Unzip the build.zip, run `iamegg.exe`, then enjoy the game!
 
