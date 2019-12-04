@@ -12,15 +12,15 @@ Unzip the build.zip, run `iamegg.exe`, then enjoy the game!
 
 ![Menu](Demo/Menu.jpg)
 
-![Options](https://github.com/Merle-Zhang/iamegg/Demo/Options.jpg)
+![Options](Demo/Options.jpg)
 
-![Egg](https://github.com/Merle-Zhang/iamegg/Demo/Egg.jpg)
+![Egg](Demo/Egg.jpg)
 
-![Fried Egg](https://github.com/Merle-Zhang/iamegg/Demo/FriedEgg.jpg)
+![Fried Egg](Demo/FriedEgg.jpg)
 
-![Congratulation](https://github.com/Merle-Zhang/iamegg/Demo/congratulation.jpg)
+![Congratulation](Demo/congratulation.jpg)
 
-[Video Demo](https://github.com/Merle-Zhang/iamegg/Demo/Demo.flv)
+[Video Demo](https://github.com/Merle-Zhang/iamegg/blob/master/Demo/Demo.flv)
 
 # Design
 
